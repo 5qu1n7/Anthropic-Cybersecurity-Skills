@@ -61,7 +61,7 @@ def normalize_to_stix(ioc_value, ioc_type, source_name, confidence=50):
         pattern_type="stix",
         valid_from=datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
         confidence=confidence,
-        created_by_ref="identity--placeholder",
+        created_by_ref="identity--f165a29e-a997-5f8a-a63b-4b72b9f2f963",
         labels=["malicious-activity"],
         external_references=[{
             "source_name": source_name,
