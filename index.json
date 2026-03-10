@@ -1,15 +1,15 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-03-10T23:37:23Z",
+  "generated_at": "2026-03-10T23:40:24Z",
   "repository": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-  "total_skills": 654,
+  "total_skills": 659,
   "total_domains": 1,
-  "total_subdomains": 27,
+  "total_subdomains": 28,
   "domain_stats": {
-    "cybersecurity": 654
+    "cybersecurity": 659
   },
   "subdomain_stats": {
-    "digital-forensics": 34,
+    "digital-forensics": 35,
     "security-operations": 32,
     "threat-intelligence": 46,
     "malware-analysis": 35,
@@ -22,9 +22,9 @@
     "incident-response": 24,
     "red-teaming": 24,
     "devsecops": 16,
-    "identity-access-management": 33,
+    "identity-access-management": 34,
     "vulnerability-management": 24,
-    "threat-hunting": 36,
+    "threat-hunting": 37,
     "web-application-security": 41,
     "penetration-testing": 23,
     "zero-trust-architecture": 13,
@@ -32,8 +32,9 @@
     "endpoint-security": 16,
     "ot-ics-security": 28,
     "api-security": 28,
+    "threat-detection": 2,
     "ransomware-defense": 5,
-    "threat-detection": 1,
+    "application-security": 1,
     "compliance-governance": 5,
     "red-team": 1
   },
@@ -44,7 +45,7 @@
     },
     {
       "tag": "threat-hunting",
-      "count": 44
+      "count": 45
     },
     {
       "tag": "penetration-testing",
@@ -1136,6 +1137,22 @@
       "author": "mukul975",
       "license": "Apache-2.0",
       "path": "skills/analyzing-web-server-logs-for-intrusion"
+    },
+    {
+      "name": "analyzing-windows-amcache-artifacts",
+      "description": ">",
+      "domain": "cybersecurity",
+      "subdomain": "digital-forensics",
+      "tags": [
+        "amcache",
+        "windows-forensics",
+        "registry-analysis",
+        "execution-artifacts"
+      ],
+      "version": "1.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/analyzing-windows-amcache-artifacts"
     },
     {
       "name": "analyzing-windows-event-logs-in-splunk",
@@ -3709,6 +3726,22 @@
       "path": "skills/detecting-lateral-movement-with-splunk"
     },
     {
+      "name": "detecting-living-off-the-land-attacks",
+      "description": ">",
+      "domain": "cybersecurity",
+      "subdomain": "threat-detection",
+      "tags": [
+        "lolbins",
+        "lotl",
+        "fileless-attacks",
+        "process-monitoring"
+      ],
+      "version": "1.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/detecting-living-off-the-land-attacks"
+    },
+    {
       "name": "detecting-mimikatz-execution-patterns",
       "description": "Detect Mimikatz execution through command-line patterns, LSASS access signatures, binary indicators, and in-memory detection of known modules.",
       "domain": "cybersecurity",
@@ -6274,6 +6307,23 @@
       "path": "skills/implementing-device-posture-assessment-in-zero-trust"
     },
     {
+      "name": "implementing-devsecops-security-scanning",
+      "description": ">",
+      "domain": "cybersecurity",
+      "subdomain": "application-security",
+      "tags": [
+        "devsecops",
+        "sast",
+        "sca",
+        "container-security",
+        "ci-cd"
+      ],
+      "version": "1.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/implementing-devsecops-security-scanning"
+    },
+    {
       "name": "implementing-diamond-model-analysis",
       "description": "The Diamond Model of Intrusion Analysis provides a structured framework for analyzing cyber intrusions by examining four core features: Adversary, Capability, Infrastructure, and Victim. This skill co",
       "domain": "cybersecurity",
@@ -7426,6 +7476,22 @@
       "author": "mukul975",
       "license": "Apache-2.0",
       "path": "skills/implementing-privileged-access-management-with-cyberark"
+    },
+    {
+      "name": "implementing-privileged-session-monitoring",
+      "description": ">",
+      "domain": "cybersecurity",
+      "subdomain": "identity-access-management",
+      "tags": [
+        "pam",
+        "session-monitoring",
+        "privileged-access",
+        "audit-logging"
+      ],
+      "version": "1.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/implementing-privileged-session-monitoring"
     },
     {
       "name": "implementing-proofpoint-email-security-gateway",
@@ -10844,6 +10910,22 @@
       "author": "mukul975",
       "license": "Apache-2.0",
       "path": "skills/performing-threat-hunting-with-elastic-siem"
+    },
+    {
+      "name": "performing-threat-hunting-with-yara-rules",
+      "description": ">",
+      "domain": "cybersecurity",
+      "subdomain": "threat-hunting",
+      "tags": [
+        "yara",
+        "malware-detection",
+        "threat-hunting",
+        "pattern-matching"
+      ],
+      "version": "1.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/performing-threat-hunting-with-yara-rules"
     },
     {
       "name": "performing-threat-landscape-assessment-for-sector",
