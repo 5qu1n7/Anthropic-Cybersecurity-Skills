@@ -19,7 +19,7 @@ jobs:
       - name: Regenerate index.json
         run: |
           python3 << 'EOF'
-          import os, json
+          import os, json, re
           from datetime import datetime, timezone
 
           skills_dir = "skills"
@@ -45,7 +45,7 @@ jobs:
               })
 
           index = {
-              "version": "1.0.0",
+              "version": "1.1.0",
               "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
               "repository": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
               "domain": "cybersecurity",
