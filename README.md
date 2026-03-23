@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <a href="https://mahipal.engineer/Anthropic-Cybersecurity-Skills/">🌐 Landing Page</a> · <a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills/releases/tag/v1.0.0">📦 v1.0.0 Release</a> · <a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills/issues">🐛 Report Bug</a> · <a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills/issues">💡 Request Feature</a>
+  <a href="https://mahipal.engineer/Anthropic-Cybersecurity-Skills/">🌐 Landing Page</a> · <a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills/releases/tag/v1.1.0">📦 v1.1.0 Release</a> · <a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills/issues">🐛 Report Bug</a> · <a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills/issues">💡 Request Feature</a>
 </p>
 
 ---
@@ -225,7 +225,7 @@ Every skill maps to one or more **NIST Cybersecurity Framework 2.0** functions:
 - **Respond (RS)** — Incident response, mitigation, communication skills
 - **Recover (RC)** — Recovery planning, improvement, communication skills
 
-> An ATT&CK Navigator layer file is included in the v1.0.0 release for visual coverage mapping.
+> An ATT&CK Navigator layer file is included in the v1.1.0 release for visual coverage mapping.
 
 ---
 
